@@ -1,0 +1,19 @@
+{application, inventory_sell_poc,
+ [{description, "Inventory sell poc"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { inventory_sell_poc_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    mnesia,
+    erljson
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
